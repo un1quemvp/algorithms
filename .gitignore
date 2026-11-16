@@ -1,0 +1,9 @@
+# кэш питона
+__pycache__/
+*.py[codz]
+*$py.class
+
+# виртуальное окружение
+.venv
+venv/
+venv.bak/
