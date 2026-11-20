@@ -1,3 +1,8 @@
+# search element sum = target
+# Time: O(n); Space: O(n)
+# Worst case - second elem in (n) pos
+# Best case - target it's sum of pair in (0, 1) pos
+
 class Solution:
     def twoSum(self, nums: list[int], target: int) -> list[int]:
         dict_of_nums = {}
