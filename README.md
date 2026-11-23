@@ -1,11 +1,17 @@
-# ПЕРВЫЙ УЧЕБНЫЙ РЕПОЗИТОРИЙ
 
-Решения задач leetcode в итоговой версии. Задачи рассматривались по ходу обучения в соответствии с личной траекторией.
+# LeetCode solutions in Python
 
-## Структура
+Solutions to LeetCode problems in Python, collected while preparing for backend internship interviews.
+Each solution starts with a short header: the approach and its time and space complexity.
 
-- `leetcode/` — решения задач с платформы LeetCode
+## Structure
 
-## Формат решений
+- `leetcode/`: one file per problem, named `NNNN-kebab-case.py`.
+  The number is padded to four digits so that files sort in numeric order.
+- When a problem has more than one solution, the final one is the working code and the first attempt is kept commented out above it.
 
-в названии файлов отражается: <номер задачи>-<название через дефис>.py
+## Topics
+
+- Arrays and hash tables: hash maps for counting, "seen" sets, two-way mappings, prefix sums
+
+More topics will be added as I go.

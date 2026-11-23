@@ -1,7 +1,5 @@
-# if num count > 2
-# Time: O(n); Space: O(n)
-# Worst case - not duplicate, all cycle
-# Best case - duplicate in (0, 1) elements
+# keep a set of seen values; return True on the first repeat.
+# Time: O(n), Space: O(n)
 
 class Solution:
     def containsDuplicate(self, nums: list[int]) -> bool:

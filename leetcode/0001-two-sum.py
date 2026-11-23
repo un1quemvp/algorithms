@@ -1,7 +1,5 @@
-# search element sum = target
-# Time: O(n); Space: O(n)
-# Worst case - second elem in (n) pos
-# Best case - target it's sum of pair in (0, 1) pos
+# store each seen value with its index; for each x check whether target - x was already seen.
+# Time: O(n), Space: O(n)
 
 class Solution:
     def twoSum(self, nums: list[int], target: int) -> list[int]:
